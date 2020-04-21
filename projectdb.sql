@@ -32,6 +32,15 @@ CREATE TABLE IF NOT EXISTS `customers` (
   UNIQUE KEY `email` (`email`)
 ) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+/*
+Passwords:
+mal:123
+john:1111
+jayne:123
+River:abc
+*/
+
+
 -- Dumping data for table gomusic.customers: ~4 rows (approximately)
 /*!40000 ALTER TABLE `customers` DISABLE KEYS */;
 INSERT INTO `customers` (`id`, `firstname`, `lastname`, `email`, `pass`, `cc_customerid`, `loggedin`, `created_at`, `updated_at`, `deleted_at`) VALUES
